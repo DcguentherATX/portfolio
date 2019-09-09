@@ -1,4 +1,5 @@
 import React from 'react';
+import NavBar from './NavBar';
 
 class App extends React.Component {
     constructor() {
@@ -16,7 +17,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                Hello, this should be displayed on the screen!
+                <NavBar />
             </div>
         );
     }
