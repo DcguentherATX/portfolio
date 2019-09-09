@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from './Navigation';
 import AboutMe from './AboutMe';
+import Projects from './Projects';
 
 class App extends React.Component {
     constructor() {
@@ -17,10 +18,11 @@ class App extends React.Component {
 
     render() {
         return (
-            <div>
+            <>
                 <Navigation />
                 <AboutMe />
-            </div>
+                <Projects />
+            </>
         );
     }
 }
