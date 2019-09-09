@@ -1,5 +1,9 @@
 import React from 'react';
 
+// images
+
+import logo from '../../assets/images/octagonLogo.png';
+
 class NavBar extends React.Component {
     constructor() {
         super();
@@ -11,7 +15,9 @@ class NavBar extends React.Component {
 
     render() {
         return (
-            <div>Navigation Bar</div>
+            <div>
+                <img src={logo} className="logo" alt="logo"></img>
+            </div>
         )
     }
 }
