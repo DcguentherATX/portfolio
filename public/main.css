@@ -88,6 +88,12 @@ body {
     text-align: center
 }
 
+/* .logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+} */
+
 /* <---------- Projects Section ----------> */
 
 .project-header {
@@ -97,12 +103,12 @@ body {
 }
 
 .project-container {
-    background-color: rgba(0,0,0,.85);
-    padding-top: 45px;
+    background-color: #282729;
+    padding-top: 30px;
 }
 
 .project {
-    background-color: rgba(0,0,0, 0);
+    background-color: #282729;
     width: 300px;
     margin: 5px;
     border-radius: 5px;
@@ -110,10 +116,10 @@ body {
 }
 
 .inner-project-container {
-    background-color: rgba(0,0,0,0);
+    background-color: #282729;
     min-width: 100%;
     margin: 0px;
-    padding: 45px;
+    padding: 15px 45px 45px 45px;
     border: 0px;
 }
 
@@ -148,9 +154,16 @@ div.card {
     background-color: whitesmoke;
     color: black;
     padding-top: 45px;
+    padding-bottom: 45px;
     display: flex;
     flex-direction: column;
     align-items: center
+}
+
+.inner-blog-container {
+    min-width: 100%;
+    padding: 0px;
+    margin: 0px;
 }
 
 .blog-header {
@@ -159,15 +172,22 @@ div.card {
     text-align: center
 }
 
+.blog-entries {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: middle
+}
+
 .date {
     font-weight: bold;
     font-size: 18px;
-    margin: 5px 0px 5px 0px
+    margin: 5px 15px 5px 15px
 }
 
 .entry {
     font-style: italic;
-    width: 75%;
+    padding: 5px 15px 5px 15px
 }
 
 /* <---------- Footer ----------> */

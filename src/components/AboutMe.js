@@ -6,16 +6,17 @@ import Col from 'react-bootstrap/Col';
 // images
 
 import profilePic from '../../assets/images/david.jpg';
+import aboutLogo from '../../assets/images/About-Logo.png';
 
 const AboutMe = (props) => {
     return (
         <Container className="about-container">
             <Row>
-                <Col lg={4} className="pic-container">
+                <Col md={12} lg={4} xl={3} className="pic-container">
                     <img src={profilePic} alt="David Carl Guenther" className="profile-pic" id="about-me"></img>
                 </Col>
-                <Col lg={8} className="story-container">
-                    <h3 className="about-header">About Me</h3>
+                <Col md={12} lg={8} xl={7} className="story-container">
+                    {/* <h3 className="about-header">About Me</h3> */}
                     <div className="about-story">
                         <p>My name is David and I am a recent transplant to Austin, TX from New York, NY.  I
                             am a full-stack software engineer that is passionate about UI design and developing
@@ -35,6 +36,9 @@ const AboutMe = (props) => {
                             friends.
                         </p>
                     </div>
+                </Col>
+                <Col className="logo-container">
+                    <img lg={12} xl={2} className="about-logo d-none d-xl-block navbar-expand-lg-" src={aboutLogo} alt="about-logo" />
                 </Col>
             </Row>
         </Container>

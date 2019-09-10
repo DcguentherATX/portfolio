@@ -11,20 +11,22 @@ import travella from '../../assets/images/Travella.png';
 import station from '../../assets/images/Pairing-Station.png';
 import fike from '../../assets/images/Fike.png';
 import portfolio from '../../assets/images/Portfolio.png';
+import applications from '../../assets/images/Applications.png';
 
 class Projects extends React.Component {
     constructor() {
         super();
 
         this.state = {
-
+            showModal: false
         }
     };
 
     render() {
         return (
             <div className="project-container" id="applications">
-                <h3 className="project-header">Applications</h3>
+                {/* <h3 className="project-header">Applications</h3> */}
+                <img src={applications} alt="applications logo" className="applications" />
                 <Container className="inner-project-container">
                     <Row className="top-row">
                         <Col className="project travella">
