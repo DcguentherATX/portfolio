@@ -140,14 +140,38 @@ div.card {
     width: 100%;
     height: 500px;
     background-color: whitesmoke;
-    color: black
+    color: black;
+    padding-top: 45px
+}
+
+.blog-header {
+    color: black;
+    font-family: 'Josephin Sans', sans-serif;
+    text-align: center;  
 }
 
 /* <---------- Footer ----------> */
 
 .footer-container {
-    width: 100%;
-    height: 100px;
     background-color: black;
-    color: white
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+
+.footer-logo {
+    height: 50px;
+    padding: 5px 0px 5px 10px;
+}
+
+.social-logo {
+    height: 40px;
+    margin: 5px
+}
+
+.instagram-logo {
+    border-radius: 5px
 }
