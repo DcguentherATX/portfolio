@@ -95,7 +95,8 @@ body {
     background-color: rgba(0,0,0, 0);
     width: 300px;
     margin: 5px;
-    border-radius: 5px
+    border-radius: 5px;
+    padding: 10px 10px
 }
 
 .inner-project-container {
@@ -138,16 +139,29 @@ div.card {
 
 .blog-container {
     width: 100%;
-    height: 500px;
     background-color: whitesmoke;
     color: black;
-    padding-top: 45px
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
 }
 
 .blog-header {
     color: black;
-    font-family: 'Josephin Sans', sans-serif;
-    text-align: center;  
+    font-family: 'Josephin Sans', sans-serif; 
+    text-align: center
+}
+
+.date {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 5px 0px 5px 0px
+}
+
+.entry {
+    font-style: italic;
+    width: 75%;
 }
 
 /* <---------- Footer ----------> */
@@ -159,12 +173,12 @@ div.card {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    padding: 8px 16px
 }
 
 .footer-logo {
     height: 50px;
-    padding: 5px 0px 5px 10px;
 }
 
 .social-logo {
