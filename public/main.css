@@ -65,7 +65,8 @@ body {
 
 .profile-pic {
     border-radius: 50%;
-    max-width: 75%;
+    max-width: 100%;
+    height: auto;
     border: 2px solid white;
 }
 
@@ -176,7 +177,8 @@ div.card {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: middle
+    align-items: middle;
+    padding: 0px 45px
 }
 
 .date {

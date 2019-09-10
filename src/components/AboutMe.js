@@ -38,7 +38,7 @@ const AboutMe = (props) => {
                     </div>
                 </Col>
                 <Col className="logo-container">
-                    <img lg={12} xl={2} className="about-logo d-none d-xl-block navbar-expand-lg-" src={aboutLogo} alt="about-logo" />
+                    <img lg={12} xl={2} className="about-logo d-none d-xl-block" src={aboutLogo} alt="about-logo" />
                 </Col>
             </Row>
         </Container>

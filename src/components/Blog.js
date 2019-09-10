@@ -19,16 +19,41 @@ const Blog = (props) => {
                         {/* <h3 className="blog-header">Blog</h3> */}
                         <div className="date">Monday, September 9, 2019</div>
                         <div className="entry">
-                            <p> This will be a blog section where I can write about anything that I am doing at the moment.
-                            Whether it is coding fun side projects, my latest culinary experiment, travelling escapades, or fun
-                            with friends, I can include that all here!
+                            <p> Hello World!  This is my first blog on my brand new portfolio website.  I decided to give
+                                myself a bit of a design challenge and wanted to see how far I could get in an 8 hour period
+                                designing a portfolio site from scratch.  At the end of the day, I'm pretty satisfied with the
+                                results, but I did have some interesting struggles along the way.
             </p>
-                            <p>I'm not quite sure what I will write my first blog post about.  Perhaps it will be about my move to Austin
-                                from New York, my bootcamp experience, or the technical job hunt in Austin.  Whatever it will be, I'm sure it
-                                will be a little theraputic
+                            <p>Starting with a blank page used to be pretty intimidating when I first started learning how to
+                                be a software engineer.  At this point, I'm much more comfortable in getting started from ground
+                                zero.  I was able to get my webpack and babel up and running within thirty minutes, added a couple
+                                script tags, and by the end of the first hour, I had built a server with express and had a basic
+                                display on the screen.  I vividly remember the struggles I had when I first started out with webpack,
+                                and I am excited about the progress I have seen.
             </p>
-                            <p>Right now, this is just holder text until I write my first entry.  This will help me with styling and
-            spacing as I work on completing my portfolio page.</p>
+                            <p>After the initial webpack setup was completed, I switched over to building my file structure and
+                                constructing a skeleton of a single page app.  I then set aside some time to sketch page layout and
+                                design options.  From there, I created the DCG logo for the site and pushed full steam ahead.  I used
+                                React to build the front end with the help of React Bootstrap, which created the easy grid layout and
+                                resizing elements as the size of the window adjusts.  Perhaps my biggest challenge was implementing
+                                the dropdown inside the navigation bar at the top.
+                            </p>
+
+                            <p>My development strategy was to work from the top down, starting with the navigation bar, then the
+                                about section, followed by the applications, and finishing with the footer with social media links.  I
+                                spent some additional time pulling up images and creating logos for each section, but overall, the day passed smoothly.
+                                Although I am satisfied with my accomplishments for the day, I still want to work on a couple things.
+                                Resizing with Bootstrap is giving me some trouble, especially in the case of the profile pic image and
+                                the about section logo.  In addition, I was not able to get my Modals up and running by the end of the
+                                day.  I will need to record some video content for these, however, I would like to have some placeholder
+                                images of my applications.  Finally, I still need to deploy, which will hopefully happen by the end of
+                                tomorrow.
+                            </p>
+
+                            <p>Well, that is about it for my first blog.  I know this first entry is not the most exciting as I am
+                                just describing a personal challenge, but hopefully things will ramp up as I continue.  Thanks for
+                                reading!
+                            </p>
                         </div>
                     </Col>
                 </Row>
