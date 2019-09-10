@@ -29,7 +29,8 @@ const Blog = (props) => {
                                 zero.  I was able to get my webpack and babel up and running within thirty minutes, added a couple
                                 script tags, and by the end of the first hour, I had built a server with express and had a basic
                                 display on the screen.  I vividly remember the struggles I had when I first started out with webpack,
-                                and I am excited about the progress I have seen.
+                                and I am excited about the progress I have seen.  Once that was complete, I created a new Github repo
+                                and connected my portfolio application.  Remember, commit early and commit often folks!
             </p>
                             <p>After the initial webpack setup was completed, I switched over to building my file structure and
                                 constructing a skeleton of a single page app.  I then set aside some time to sketch page layout and
