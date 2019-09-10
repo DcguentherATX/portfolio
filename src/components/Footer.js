@@ -9,7 +9,7 @@ import linkedIn from '../../assets/images/linkedInLogoWhite.png';
 
 const Footer = (props) => {
     return (
-        <div className="footer-container">
+        <div className="footer-container" id="connect">
             <img className="footer-logo" src={logo} alt="DCG Logo"></img>
             <div className="social-media">
                 <a href="https://github.com/DcguentherATX"><img className="social-logo" src={github} alt="github logo" /></a>

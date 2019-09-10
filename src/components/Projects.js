@@ -23,7 +23,7 @@ class Projects extends React.Component {
 
     render() {
         return (
-            <div className="project-container">
+            <div className="project-container" id="applications">
                 <h3 className="project-header">Applications</h3>
                 <Container className="inner-project-container">
                     <Row className="top-row">

@@ -1,5 +1,7 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
+import DropdownButton from 'react-bootstrap/DropdownButton';
+import Dropdown from 'react-bootstrap/Dropdown';
 
 // images
 
@@ -18,13 +20,27 @@ class Navigation extends React.Component {
     render() {
         return (
             <Navbar className="navbar" sticky="top">
-                <Navbar.Brand href="home">
+                <Navbar.Brand href="#home">
                     <img src={logo} width="60" height="60" className="logo" alt="DCG Logo" />
                 </Navbar.Brand>
-                <div className="portfolio-name">
+                <div className="portfolio-name" id="home">
                     David Carl Guenther
                     </div>
-                <img className="menu" src={menu}></img>
+                <div className="delete-itinerary-dropdown">
+                    <DropdownButton className="overall-dropdown"
+                        alignRight
+                        title={
+                            <img className="menu" src={menu}></img>
+                        }
+                        id="dropdown-menu-align-right"
+                    >
+                        <Dropdown.Item className="drop" eventKey="1" href="#about-me">About Me</Dropdown.Item>
+                        <Dropdown.Item className="drop" eventKey="2" href="#applications">Applications</Dropdown.Item>
+                        <Dropdown.Item className="drop" eventKey="3" href="#blog">Blog</Dropdown.Item>
+                        <Dropdown.Item className="lastdrop" eventKey="4" href="#connect">Connect</Dropdown.Item>
+                    </DropdownButton>
+                </div>
+                {/* <img className="menu" src={menu}></img> */}
             </Navbar>
         )
     }

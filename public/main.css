@@ -22,7 +22,8 @@ body {
 .menu {
     height: 50px;
     width: 50px;
-    border-radius: 50%
+    border-radius: 50%;
+    margin-right: -30px
 }
 
 .portfolio-name {
@@ -35,6 +36,15 @@ body {
 .social-media {
     padding-right: 10px
 }
+
+.btn-primary {
+    background: transparent !important;
+    border-color: transparent !important;
+    border: none;
+    outline: none;
+    width: 100px;
+    padding: 0px
+  }
 
 /* <---------- About Section ----------> */
 
@@ -125,10 +135,6 @@ div.card {
     font-size: 22px;
     font-weight: 600;
     text-align: center
-}
-
-.btn {
-    width: 150px;
 }
 
 .card {

@@ -12,7 +12,7 @@ const AboutMe = (props) => {
         <Container className="about-container">
             <Row>
                 <Col lg={4} className="pic-container">
-                    <img src={profilePic} alt="David Carl Guenther" className="profile-pic"></img>
+                    <img src={profilePic} alt="David Carl Guenther" className="profile-pic" id="about-me"></img>
                 </Col>
                 <Col lg={8} className="story-container">
                     <h3 className="about-header">About Me</h3>
