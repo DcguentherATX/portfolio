@@ -1,6 +1,7 @@
 body {
     margin: 0px;
-    font-family: 'Quicksand', sans-serif
+    font-family: 'Quicksand', sans-serif;
+    text-align: center
 }
 
 /* <---------- Navigation ----------> */
@@ -18,9 +19,15 @@ body {
    padding: 5px 0px 5px 10px;
 }
 
-.portfolio-name, .social-media {
+.menu {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%
+}
+
+.portfolio-name {
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Josephin Sans', sans-serif;
     font-weight: 600
 }
@@ -69,4 +76,78 @@ body {
     color: white;
     font-family: 'Josephin Sans', sans-serif;
     text-align: center
+}
+
+/* <---------- Projects Section ----------> */
+
+.project-header {
+    color: white;
+    font-family: 'Josephin Sans', sans-serif;
+    text-align: center;
+}
+
+.project-container {
+    background-color: rgba(0,0,0,.85);
+    padding-top: 45px;
+}
+
+.project {
+    background-color: rgba(0,0,0, 0);
+    width: 300px;
+    margin: 5px;
+    border-radius: 5px
+}
+
+.inner-project-container {
+    background-color: rgba(0,0,0,0);
+    min-width: 100%;
+    margin: 0px;
+    padding: 45px;
+    border: 0px;
+}
+
+div.card {
+    height: 100%
+}
+
+.card-body {
+    background-color: black;
+    color: white;
+    justify-content: flex-end;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.project-title {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center
+}
+
+.btn {
+    width: 150px;
+}
+
+.card {
+    border: none
+}
+
+/* <---------- Blog Section ----------> */
+
+.blog-container {
+    width: 100%;
+    height: 500px;
+    background-color: whitesmoke;
+    color: black
+}
+
+/* <---------- Footer ----------> */
+
+.footer-container {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white
 }

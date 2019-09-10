@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 // images
 
 import logo from '../../assets/images/boxLogo.png';
+import menu from '../../assets/images/Menu-Lines.png';
 
 class Navigation extends React.Component {
     constructor() {
@@ -23,9 +24,7 @@ class Navigation extends React.Component {
                 <div className="portfolio-name">
                     David Carl Guenther
                     </div>
-                <div className="social-media">
-                    Social
-                    </div>
+                <img className="menu" src={menu}></img>
             </Navbar>
         )
     }
