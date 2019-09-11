@@ -4,6 +4,7 @@ import { Button, Modal } from 'react-bootstrap';
 const PortfolioModal = (props) => {
     return (
         <Modal show={props.show} onHide={props.onHide}
+            size="lg"
             aria-labelledby="contained-modal-title-vcenter"
             centered
         >

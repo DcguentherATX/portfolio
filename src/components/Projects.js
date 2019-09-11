@@ -85,7 +85,7 @@ class Projects extends React.Component {
                                 <Card.Body className="project-info">
                                     <Card.Title className="project-title">Travella</Card.Title>
                                     <Button variant="outline-light" className="btn" onClick={this.handleShowTravellaModal}>Learn More</Button>
-                                    <TravellaModal show={this.state.showTravellaModal} onHide={this.handleCloseTravellaModal} handleClose={this.handleCloseApplicationModal} title="Travella" />
+                                    <TravellaModal show={this.state.showTravellaModal} onHide={this.handleCloseTravellaModal} handleClose={this.handleCloseTravellaModal} title="Travella" />
                                 </Card.Body>
                             </Card>
                         </Col>
