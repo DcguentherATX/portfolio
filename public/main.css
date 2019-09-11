@@ -57,15 +57,19 @@ body {
 }
 
 .pic-container {
+    max-width: 100%;
+    height: auto;
     display: flex;
     padding: 15px 0px 15px 0px;
     justify-content: center;
-    align-items: middle
+    align-items: middle;
 }
 
 .profile-pic {
     border-radius: 50%;
     max-width: 100%;
+    max-height: auto;
+    width: 100%;
     height: auto;
     border: 2px solid white;
 }
@@ -79,7 +83,8 @@ body {
 
 .about-story {
     color: white;
-    text-align: center;
+    text-align: justify;
+    padding-left: 20px;
     max-width: 90%
 }
 
@@ -202,12 +207,13 @@ div.card {
     flex-direction: column;
     justify-content: center;
     align-items: middle;
-    padding: 0px 45px
+    padding: 0px 45px;
+    text-align: left
 }
 
 .date {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
     margin: 5px 15px 5px 15px
 }
 
