@@ -25,7 +25,7 @@ const TravellaModal = (props) => {
             <Modal.Body>
                 <Container>
                     <Row>
-                        <Col>
+                        <Col xs={7}>
                             <img className="modal-image" src={mainPage} alt="Travella main page" />
                             <img className="modal-image" src={categories} alt="Travella category page" />
                             <img className="modal-image" src={timeline} alt="Travella itinerary image" />

@@ -14,7 +14,7 @@ import PortfolioModal from './PortfolioModal';
 
 import travella from '../../assets/images/Travella.png';
 import station from '../../assets/images/Pairing-Station.png';
-import fike from '../../assets/images/Fike.png';
+import fike from '../../assets/images/Fike-with-Footer.png';
 import portfolio from '../../assets/images/Portfolio.png';
 import applications from '../../assets/images/Applications.png';
 

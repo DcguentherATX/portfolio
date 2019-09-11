@@ -151,8 +151,9 @@ div.card {
 /* <---------- Travella Modal ----------> */
 
 .modal-image {
-    max-width: 100%;
-    padding: 5px 0px
+    max-width: 98%;
+    margin: 8px 0px;
+    border: 2px solid #282729
 }
 
 .modal-description{
@@ -166,12 +167,6 @@ div.card {
     padding: 5px 3px;
     text-align: left 
 }
-
-/* .modal-close {
-    display: flex;
-    flex-direction: column;
-    justify-content: center
-} */
 
 .modal-button {
     width: 100px
