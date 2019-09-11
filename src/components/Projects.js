@@ -18,9 +18,22 @@ class Projects extends React.Component {
         super();
 
         this.state = {
-            showModal: false
+            showApplicationModal: false
         }
+
+        this.handleShowApplicationModal = this.handleShowApplicationModal.bind(this);
+        this.handleCloseApplicationModal = this.handleCloseApplicationModal.bind(this);
+
+
     };
+
+    handleShowApplicationModal() {
+        this.setState({ showApplicationModal: true });
+    }
+
+    handleCloseApplicationModal() {
+        this.setState({ showApplicationModal: false });
+    }
 
     render() {
         return (
