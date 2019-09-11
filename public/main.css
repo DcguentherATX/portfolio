@@ -148,8 +148,34 @@ div.card {
     border: none
 }
 
-/* <---------- Application Modal ----------> */
+/* <---------- Travella Modal ----------> */
 
+.modal-image {
+    max-width: 100%;
+    padding: 5px 0px
+}
+
+.modal-description{
+    max-width: 100%;
+    padding: 5px 5px;
+    text-align: left
+}
+
+.tech {
+    max-width: 100%;
+    padding: 5px 3px;
+    text-align: left 
+}
+
+/* .modal-close {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+} */
+
+.modal-button {
+    width: 100px
+}
 
 /* <---------- Blog Section ----------> */
 
