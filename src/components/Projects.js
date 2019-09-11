@@ -4,6 +4,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import TravellaModal from './TravellaModal';
+import StationModal from './StationModal';
+import FikeModal from './FikeModal';
+import PortfolioModal from './PortfolioModal';
+
 
 // images
 
@@ -18,22 +23,54 @@ class Projects extends React.Component {
         super();
 
         this.state = {
-            showApplicationModal: false
+            showTravellanModal: false,
+            showStationModal: false,
+            showFikeModal: false,
+            showPortfolioModal: false
         }
 
-        this.handleShowApplicationModal = this.handleShowApplicationModal.bind(this);
-        this.handleCloseApplicationModal = this.handleCloseApplicationModal.bind(this);
-
-
+        this.handleShowTravellaModal = this.handleShowTravellaModal.bind(this);
+        this.handleCloseTravellaModal = this.handleCloseTravellaModal.bind(this);
+        this.handleShowStationModal = this.handleShowStationModal.bind(this);
+        this.handleCloseStationModal = this.handleCloseStationModal.bind(this);
+        this.handleShowFikeModal = this.handleShowFikeModal.bind(this);
+        this.handleCloseFikeModal = this.handleCloseFikeModal.bind(this);
+        this.handleShowPortfolioModal = this.handleShowPortfolioModal.bind(this);
+        this.handleClosePortfolioModal = this.handleClosePortfolioModal.bind(this);
     };
 
-    handleShowApplicationModal() {
-        this.setState({ showApplicationModal: true });
+    handleShowTravellaModal() {
+        this.setState({ showTravellaModal: true });
     }
 
-    handleCloseApplicationModal() {
-        this.setState({ showApplicationModal: false });
+    handleCloseTravellaModal() {
+        this.setState({ showTravellaModal: false });
     }
+
+    handleShowStationModal() {
+        this.setState({ showStationModal: true });
+    }
+
+    handleCloseStationModal() {
+        this.setState({ showStationModal: false });
+    }
+
+    handleShowFikeModal() {
+        this.setState({ showFikeModal: true });
+    }
+
+    handleCloseFikeModal() {
+        this.setState({ showFikeModal: false });
+    }
+
+    handleShowPortfolioModal() {
+        this.setState({ showPortfolioModal: true });
+    }
+
+    handleClosePortfolioModal() {
+        this.setState({ showPortfolioModal: false });
+    }
+
 
     render() {
         return (
@@ -47,7 +84,8 @@ class Projects extends React.Component {
                                 <Card.Img variant="top" className="project-image" src={travella} />
                                 <Card.Body className="project-info">
                                     <Card.Title className="project-title">Travella</Card.Title>
-                                    <Button variant="outline-light" className="btn">Learn More</Button>
+                                    <Button variant="outline-light" className="btn" onClick={this.handleShowTravellaModal}>Learn More</Button>
+                                    <TravellaModal show={this.state.showTravellaModal} onHide={this.handleCloseTravellaModal} handleClose={this.handleCloseApplicationModal} title="Travella" />
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -56,7 +94,8 @@ class Projects extends React.Component {
                                 <Card.Img variant="top" className="project-image" src={station} />
                                 <Card.Body>
                                     <Card.Title className="project-title">The Pairing Station</Card.Title>
-                                    <Button variant="outline-light">Learn More</Button>
+                                    <Button variant="outline-light" onClick={this.handleShowStationModal}>Learn More</Button>
+                                    <StationModal show={this.state.showStationModal} onHide={this.handleCloseStationModal} handleClose={this.handleCloseStationModal} title="The Pairing Station" />
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -67,7 +106,8 @@ class Projects extends React.Component {
                                 <Card.Img variant="top" className="project-image" src={fike} />
                                 <Card.Body>
                                     <Card.Title className="project-title">Fike</Card.Title>
-                                    <Button variant="outline-light">Learn More</Button>
+                                    <Button variant="outline-light" onClick={this.handleShowFikeModal}>Learn More</Button>
+                                    <FikeModal show={this.state.showFikeModal} onHide={this.handleCloseFikeModal} handleClose={this.handleCloseFikeModal} title="Fike" />
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -76,7 +116,8 @@ class Projects extends React.Component {
                                 <Card.Img variant="top" className="project-image" src={portfolio} />
                                 <Card.Body>
                                     <Card.Title className="project-title">DCG Portfolio</Card.Title>
-                                    <Button variant="outline-light">Learn More</Button>
+                                    <Button variant="outline-light" onClick={this.handleShowPortfolioModal}>Learn More</Button>
+                                    <PortfolioModal show={this.state.showPortfolioModal} onHide={this.handleClosePortfolioModal} handleClose={this.handleClosePortfolioModal} title="DCG Portfolio" />
                                 </Card.Body>
                             </Card>
                         </Col>
