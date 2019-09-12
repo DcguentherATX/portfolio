@@ -12,9 +12,9 @@ const Footer = (props) => {
         <div className="footer-container" id="connect">
             <img className="footer-logo" src={logo} alt="DCG Logo"></img>
             <div className="social-media">
-                <a href="https://github.com/DcguentherATX"><img className="social-logo" src={github} alt="github logo" /></a>
-                <a href="https://www.linkedin.com/in/david-guenther"><img className="social-logo" src={linkedIn} alt="linkedIn logo" /></a>
-                <a href="https://www.instagram.com/dcguenther/"><img className="social-logo instagram-logo" src={instagram} alt="instagram logo" /></a>
+                <a href="https://github.com/DcguentherATX" target="_blank"><img className="social-logo" src={github} alt="github logo" /></a>
+                <a href="https://www.linkedin.com/in/david-guenther" target="_blank"><img className="social-logo" src={linkedIn} alt="linkedIn logo" /></a>
+                <a href="https://www.instagram.com/dcguenther/" target="_blank"><img className="social-logo instagram-logo" src={instagram} alt="instagram logo" /></a>
             </div>
         </div>
     )
