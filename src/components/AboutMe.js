@@ -10,7 +10,7 @@ import aboutLogo from '../../assets/images/About-Logo.png';
 
 const AboutMe = (props) => {
     return (
-        <Container className="about-container">
+        <Container className="about-container" id="top">
             <Row>
                 <Col md={12} lg={4} xl={3} className="pic-container">
                     <div className="inner-pic-container">
