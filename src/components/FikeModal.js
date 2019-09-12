@@ -46,8 +46,8 @@ const FikeModal = (props) => {
             <Modal.Footer>
                 <Container>
                     <Row>
-                        <Col xs={9} className="tech">
-                            <div><strong>Technologies Used: </strong>React, Bootstrap, Axios, Express, MongoDB, Mongoose
+                        <Col xs={9}>
+                            <div className="tech" ><strong>Technologies Used: </strong>React, Bootstrap, Axios, Express, MongoDB, Mongoose
                             AWS EC2, PM2, NGINX, Webpack, Babel, Node.js</div>
                         </Col>
                         <Col className="modal-close">

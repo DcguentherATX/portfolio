@@ -46,8 +46,8 @@ const StationModal = (props) => {
             <Modal.Footer>
                 <Container>
                     <Row>
-                        <Col className="tech" xs={9}>
-                            <div><strong>Technologies Used:</strong> React, Bootstrap, Axios, Express, MongoDB, Mongoose,
+                        <Col xs={9}>
+                            <div className="tech" ><strong>Technologies Used:</strong> React, Bootstrap, Axios, Express, MongoDB, Mongoose,
                             Webpack, Babel, Node.js, Javascript, HTML, CSS</div>
                         </Col>
                         <Col className="modal-close">

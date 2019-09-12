@@ -48,8 +48,8 @@ const PortfolioModal = (props) => {
             <Modal.Footer>
                 <Container>
                     <Row>
-                        <Col xs={9} className="tech">
-                            <div><strong>Technologies Used: </strong>React, Bootstrap, Express, Digital Ocean, VIM, NGINX, Webpack, Babel</div>
+                        <Col xs={9}>
+                            <div className="tech" ><strong>Technologies Used: </strong>React, Bootstrap, Express, Digital Ocean, Gulp, NGINX, Webpack, Babel</div>
                         </Col>
                         <Col className="modal-close">
                             <Button className="modal-button" variant="dark" onClick={props.handleClose}>
