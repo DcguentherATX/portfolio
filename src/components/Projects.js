@@ -13,7 +13,7 @@ import PortfolioModal from './PortfolioModal';
 // images
 
 import travella from '../../assets/images/Travella-Updated.png';
-import station from '../../assets/images/Station-Top.png';
+import station from '../../assets/images/Pairing-Station.png';
 import fike from '../../assets/images/Fike-with-Footer.png';
 import portfolio from '../../assets/images/Portfolio.png';
 import applications from '../../assets/images/Applications.png';
