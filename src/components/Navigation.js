@@ -9,8 +9,8 @@ import logo from '../../assets/images/boxLogo.png';
 import menu from '../../assets/images/Menu-Lines.png';
 
 class Navigation extends React.Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
 
         this.state = {
 
@@ -21,7 +21,6 @@ class Navigation extends React.Component {
         return (
             <Navbar className="navbar" sticky="top">
                 <Navbar.Brand href="#top">
-                    <img src={logo} width="60" height="60" className="logo" alt="DCG Logo" />
                 </Navbar.Brand>
                 <div className="portfolio-name">
                     David Carl Guenther

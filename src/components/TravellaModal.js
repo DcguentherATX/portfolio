@@ -9,6 +9,7 @@ import Col from 'react-bootstrap/Col';
 import mainPage from '../../assets/images/Travella-Home-Screen.png';
 import categories from '../../assets/images/Travella-Category-Page.png';
 import timeline from '../../assets/images/Travella.png';
+// import TraVideo from '../../assets/images/TravellaVideo.mov';
 
 const TravellaModal = (props) => {
     return (
@@ -29,6 +30,8 @@ const TravellaModal = (props) => {
                             <img className="modal-image" src={mainPage} alt="Travella main page" />
                             <img className="modal-image" src={categories} alt="Travella category page" />
                             <img className="modal-image" src={timeline} alt="Travella itinerary image" />
+                            {/* <embed src={TraVideo} autoStart="true" allowFullScreen />; */}
+
                         </Col>
                         <Col>
                             <div className="modal-description">

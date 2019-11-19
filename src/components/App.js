@@ -6,8 +6,8 @@ import Blog from './Blog';
 import Footer from './Footer';
 
 class App extends React.Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
 
         this.state = {
 
